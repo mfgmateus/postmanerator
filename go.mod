@@ -1,6 +1,7 @@
 module github.com/aubm/postmanerator
 
 require (
+	github.com/aws/aws-sdk-go v1.26.1
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/facebookgo/ensure v0.0.0-20160127193407-b4ab57deab51 // indirect
 	github.com/facebookgo/inject v0.0.0-20180706035515-f23751cae28b
@@ -9,7 +10,6 @@ require (
 	github.com/facebookgo/subset v0.0.0-20150612182917-8dac2c3c4870 // indirect
 	github.com/fatih/color v1.7.0
 	github.com/howeyc/fsnotify v0.9.0
-	github.com/karrick/godirwalk v1.10.12 // indirect
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.4 // indirect
 	github.com/onsi/ginkgo v1.6.0
@@ -22,6 +22,7 @@ require (
 	github.com/sergi/go-diff v1.0.0
 	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/stretchr/testify v1.2.2
-	github.com/uudashr/gopkgs v2.0.1+incompatible // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
+
+go 1.13

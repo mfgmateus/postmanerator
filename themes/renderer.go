@@ -32,5 +32,7 @@ func (r *Renderer) getTemplateHelpers() template.FuncMap {
 		"inline":       helperInline,
 		"markdown":     helperMarkdown,
 		"slugify":      helperSlugify,
+		"length":      helperLength,
+		"upload_to_s3":      helperUploadToS3,
 	}
 }
